@@ -16,6 +16,12 @@
 		6B361DF72C04D01F004C5811 /* PIeChartTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361DF62C04D01F004C5811 /* PIeChartTestUITests.swift */; };
 		6B361DF92C04D01F004C5811 /* PIeChartTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361DF82C04D01F004C5811 /* PIeChartTestUITestsLaunchTests.swift */; };
 		6B361E062C04D1DA004C5811 /* DoughnutChartCircular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361E052C04D1DA004C5811 /* DoughnutChartCircular.swift */; };
+		6B361E082C04EAB6004C5811 /* Circular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361E072C04EAB6004C5811 /* Circular.swift */; };
+		6B361E0A2C04EBAA004C5811 /* CircularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361E092C04EBAA004C5811 /* CircularViewController.swift */; };
+		6B361E0F2C04EC4A004C5811 /* PercentageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361E0E2C04EC4A004C5811 /* PercentageStyle.swift */; };
+		6B361E122C04EC83004C5811 /* AnimationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361E112C04EC83004C5811 /* AnimationStyle.swift */; };
+		6B361E142C05072D004C5811 /* InfoChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361E132C05072D004C5811 /* InfoChart.swift */; };
+		6B361E172C050B06004C5811 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361E162C050B06004C5811 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		6B361DF62C04D01F004C5811 /* PIeChartTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIeChartTestUITests.swift; sourceTree = "<group>"; };
 		6B361DF82C04D01F004C5811 /* PIeChartTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIeChartTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6B361E052C04D1DA004C5811 /* DoughnutChartCircular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutChartCircular.swift; sourceTree = "<group>"; };
+		6B361E072C04EAB6004C5811 /* Circular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular.swift; sourceTree = "<group>"; };
+		6B361E092C04EBAA004C5811 /* CircularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularViewController.swift; sourceTree = "<group>"; };
+		6B361E0E2C04EC4A004C5811 /* PercentageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageStyle.swift; sourceTree = "<group>"; };
+		6B361E112C04EC83004C5811 /* AnimationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStyle.swift; sourceTree = "<group>"; };
+		6B361E132C05072D004C5811 /* InfoChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoChart.swift; sourceTree = "<group>"; };
+		6B361E162C050B06004C5811 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +111,11 @@
 		6B361DD42C04D01E004C5811 /* PIeChartTest */ = {
 			isa = PBXGroup;
 			children = (
+				6B361E152C050AF8004C5811 /* Extensions */,
+				6B361E0C2C04EC2B004C5811 /* Components */,
+				6B361E0B2C04EC0E004C5811 /* Controllers */,
 				6B361DD52C04D01E004C5811 /* AppDelegate.swift */,
 				6B361DD72C04D01E004C5811 /* SceneDelegate.swift */,
-				6B361DD92C04D01E004C5811 /* DoughnutChartViewController.swift */,
-				6B361E052C04D1DA004C5811 /* DoughnutChartCircular.swift */,
 				6B361DDE2C04D01E004C5811 /* Assets.xcassets */,
 				6B361DE02C04D01E004C5811 /* LaunchScreen.storyboard */,
 				6B361DE32C04D01E004C5811 /* Info.plist */,
@@ -125,6 +138,43 @@
 				6B361DF82C04D01F004C5811 /* PIeChartTestUITestsLaunchTests.swift */,
 			);
 			path = PIeChartTestUITests;
+			sourceTree = "<group>";
+		};
+		6B361E0B2C04EC0E004C5811 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B361DD92C04D01E004C5811 /* DoughnutChartViewController.swift */,
+				6B361E092C04EBAA004C5811 /* CircularViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6B361E0C2C04EC2B004C5811 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6B361E0D2C04EC3C004C5811 /* Enums */,
+				6B361E052C04D1DA004C5811 /* DoughnutChartCircular.swift */,
+				6B361E072C04EAB6004C5811 /* Circular.swift */,
+				6B361E132C05072D004C5811 /* InfoChart.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6B361E0D2C04EC3C004C5811 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				6B361E0E2C04EC4A004C5811 /* PercentageStyle.swift */,
+				6B361E112C04EC83004C5811 /* AnimationStyle.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		6B361E152C050AF8004C5811 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B361E162C050B06004C5811 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,10 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B361E122C04EC83004C5811 /* AnimationStyle.swift in Sources */,
 				6B361DDA2C04D01E004C5811 /* DoughnutChartViewController.swift in Sources */,
+				6B361E082C04EAB6004C5811 /* Circular.swift in Sources */,
+				6B361E0F2C04EC4A004C5811 /* PercentageStyle.swift in Sources */,
 				6B361DD62C04D01E004C5811 /* AppDelegate.swift in Sources */,
+				6B361E0A2C04EBAA004C5811 /* CircularViewController.swift in Sources */,
 				6B361E062C04D1DA004C5811 /* DoughnutChartCircular.swift in Sources */,
 				6B361DD82C04D01E004C5811 /* SceneDelegate.swift in Sources */,
+				6B361E142C05072D004C5811 /* InfoChart.swift in Sources */,
+				6B361E172C050B06004C5811 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

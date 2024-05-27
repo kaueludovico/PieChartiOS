@@ -1,22 +1,16 @@
 //
-//  ViewController.swift
-//  PIeChartTest
+//  CircularViewController.swift
+//  PieChartTest
 //
 //  Created by Kaue Ludovico on 27/05/24.
 //
 
 import UIKit
 
-class DoughnutChartViewController: UIViewController {
-    
+class CircularViewController: UIViewController {
     // MARK: - Properties
     
-    var circularView: DoughnutChartCircular!
-    
-    lazy var infoChart: UILabel = {
-        let label = UILabel()
-        return label
-    }()
+    var circularView: Circular!
     
     // MARK: - View Lifecycle
     
@@ -30,17 +24,18 @@ class DoughnutChartViewController: UIViewController {
     // MARK: - Setup Circular View
     
     private func setupCircularView() {
-        let percentages: [Double] = [80] // Example data percentages
+        let percentages: [Double] = [99] // Example data percentages
         let colors: [UIColor] = [.systemBlue] // Example colors
         
-        // Initialize Doughnut Chart view
-        circularView = DoughnutChartCircular(percentages: percentages, colors: colors)
+        // Initialize Circular Chart view
+        circularView = Circular(percentages: percentages, colors: colors)
         circularView.translatesAutoresizingMaskIntoConstraints = false
         
-        // Add Doughnut Chart view to the main view
+        // Add Circular Chart view to the main view
         view.addSubview(circularView)
         
-        // Setup constraints for Doughnut Chart view
+        
+        // Setup constraints for Circular Chart view
         NSLayoutConstraint.activate([
             circularView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             circularView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
@@ -49,4 +44,3 @@ class DoughnutChartViewController: UIViewController {
         ])
     }
 }
-
