@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		6B361DD62C04D01E004C5811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361DD52C04D01E004C5811 /* AppDelegate.swift */; };
 		6B361DD82C04D01E004C5811 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361DD72C04D01E004C5811 /* SceneDelegate.swift */; };
-		6B361DDA2C04D01E004C5811 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361DD92C04D01E004C5811 /* ViewController.swift */; };
-		6B361DDD2C04D01E004C5811 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6B361DDC2C04D01E004C5811 /* Base */; };
+		6B361DDA2C04D01E004C5811 /* DoughnutChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361DD92C04D01E004C5811 /* DoughnutChartViewController.swift */; };
 		6B361DDF2C04D01E004C5811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B361DDE2C04D01E004C5811 /* Assets.xcassets */; };
 		6B361DE22C04D01E004C5811 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6B361DE12C04D01E004C5811 /* Base */; };
 		6B361DED2C04D01F004C5811 /* PIeChartTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361DEC2C04D01F004C5811 /* PIeChartTestTests.swift */; };
 		6B361DF72C04D01F004C5811 /* PIeChartTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361DF62C04D01F004C5811 /* PIeChartTestUITests.swift */; };
 		6B361DF92C04D01F004C5811 /* PIeChartTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361DF82C04D01F004C5811 /* PIeChartTestUITestsLaunchTests.swift */; };
+		6B361E062C04D1DA004C5811 /* DoughnutChartCircular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B361E052C04D1DA004C5811 /* DoughnutChartCircular.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B361DD22C04D01E004C5811 /* PIeChartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIeChartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B361DD22C04D01E004C5811 /* PieChartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieChartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B361DD52C04D01E004C5811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B361DD72C04D01E004C5811 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6B361DD92C04D01E004C5811 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6B361DDC2C04D01E004C5811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B361DD92C04D01E004C5811 /* DoughnutChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutChartViewController.swift; sourceTree = "<group>"; };
 		6B361DDE2C04D01E004C5811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B361DE12C04D01E004C5811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B361DE32C04D01E004C5811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B361DE82C04D01F004C5811 /* PIeChartTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PIeChartTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B361DE82C04D01F004C5811 /* PieChartTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieChartTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B361DEC2C04D01F004C5811 /* PIeChartTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIeChartTestTests.swift; sourceTree = "<group>"; };
-		6B361DF22C04D01F004C5811 /* PIeChartTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PIeChartTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B361DF22C04D01F004C5811 /* PieChartTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieChartTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B361DF62C04D01F004C5811 /* PIeChartTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIeChartTestUITests.swift; sourceTree = "<group>"; };
 		6B361DF82C04D01F004C5811 /* PIeChartTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIeChartTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6B361E052C04D1DA004C5811 /* DoughnutChartCircular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutChartCircular.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +89,9 @@
 		6B361DD32C04D01E004C5811 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B361DD22C04D01E004C5811 /* PIeChartTest.app */,
-				6B361DE82C04D01F004C5811 /* PIeChartTestTests.xctest */,
-				6B361DF22C04D01F004C5811 /* PIeChartTestUITests.xctest */,
+				6B361DD22C04D01E004C5811 /* PieChartTest.app */,
+				6B361DE82C04D01F004C5811 /* PieChartTestTests.xctest */,
+				6B361DF22C04D01F004C5811 /* PieChartTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,8 +101,8 @@
 			children = (
 				6B361DD52C04D01E004C5811 /* AppDelegate.swift */,
 				6B361DD72C04D01E004C5811 /* SceneDelegate.swift */,
-				6B361DD92C04D01E004C5811 /* ViewController.swift */,
-				6B361DDB2C04D01E004C5811 /* Main.storyboard */,
+				6B361DD92C04D01E004C5811 /* DoughnutChartViewController.swift */,
+				6B361E052C04D1DA004C5811 /* DoughnutChartCircular.swift */,
 				6B361DDE2C04D01E004C5811 /* Assets.xcassets */,
 				6B361DE02C04D01E004C5811 /* LaunchScreen.storyboard */,
 				6B361DE32C04D01E004C5811 /* Info.plist */,
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6B361DD12C04D01E004C5811 /* PIeChartTest */ = {
+		6B361DD12C04D01E004C5811 /* PieChartTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B361DFC2C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PIeChartTest" */;
+			buildConfigurationList = 6B361DFC2C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PieChartTest" */;
 			buildPhases = (
 				6B361DCE2C04D01E004C5811 /* Sources */,
 				6B361DCF2C04D01E004C5811 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = PIeChartTest;
+			name = PieChartTest;
 			productName = PIeChartTest;
-			productReference = 6B361DD22C04D01E004C5811 /* PIeChartTest.app */;
+			productReference = 6B361DD22C04D01E004C5811 /* PieChartTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6B361DE72C04D01F004C5811 /* PIeChartTestTests */ = {
+		6B361DE72C04D01F004C5811 /* PieChartTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B361DFF2C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PIeChartTestTests" */;
+			buildConfigurationList = 6B361DFF2C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PieChartTestTests" */;
 			buildPhases = (
 				6B361DE42C04D01F004C5811 /* Sources */,
 				6B361DE52C04D01F004C5811 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				6B361DEA2C04D01F004C5811 /* PBXTargetDependency */,
 			);
-			name = PIeChartTestTests;
+			name = PieChartTestTests;
 			productName = PIeChartTestTests;
-			productReference = 6B361DE82C04D01F004C5811 /* PIeChartTestTests.xctest */;
+			productReference = 6B361DE82C04D01F004C5811 /* PieChartTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6B361DF12C04D01F004C5811 /* PIeChartTestUITests */ = {
+		6B361DF12C04D01F004C5811 /* PieChartTestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B361E022C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PIeChartTestUITests" */;
+			buildConfigurationList = 6B361E022C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PieChartTestUITests" */;
 			buildPhases = (
 				6B361DEE2C04D01F004C5811 /* Sources */,
 				6B361DEF2C04D01F004C5811 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				6B361DF42C04D01F004C5811 /* PBXTargetDependency */,
 			);
-			name = PIeChartTestUITests;
+			name = PieChartTestUITests;
 			productName = PIeChartTestUITests;
-			productReference = 6B361DF22C04D01F004C5811 /* PIeChartTestUITests.xctest */;
+			productReference = 6B361DF22C04D01F004C5811 /* PieChartTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6B361DCD2C04D01E004C5811 /* Build configuration list for PBXProject "PIeChartTest" */;
+			buildConfigurationList = 6B361DCD2C04D01E004C5811 /* Build configuration list for PBXProject "PieChartTest" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B361DD12C04D01E004C5811 /* PIeChartTest */,
-				6B361DE72C04D01F004C5811 /* PIeChartTestTests */,
-				6B361DF12C04D01F004C5811 /* PIeChartTestUITests */,
+				6B361DD12C04D01E004C5811 /* PieChartTest */,
+				6B361DE72C04D01F004C5811 /* PieChartTestTests */,
+				6B361DF12C04D01F004C5811 /* PieChartTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +233,6 @@
 			files = (
 				6B361DDF2C04D01E004C5811 /* Assets.xcassets in Resources */,
 				6B361DE22C04D01E004C5811 /* Base in Resources */,
-				6B361DDD2C04D01E004C5811 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B361DDA2C04D01E004C5811 /* ViewController.swift in Sources */,
+				6B361DDA2C04D01E004C5811 /* DoughnutChartViewController.swift in Sources */,
 				6B361DD62C04D01E004C5811 /* AppDelegate.swift in Sources */,
+				6B361E062C04D1DA004C5811 /* DoughnutChartCircular.swift in Sources */,
 				6B361DD82C04D01E004C5811 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,25 +286,17 @@
 /* Begin PBXTargetDependency section */
 		6B361DEA2C04D01F004C5811 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6B361DD12C04D01E004C5811 /* PIeChartTest */;
+			target = 6B361DD12C04D01E004C5811 /* PieChartTest */;
 			targetProxy = 6B361DE92C04D01F004C5811 /* PBXContainerItemProxy */;
 		};
 		6B361DF42C04D01F004C5811 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6B361DD12C04D01E004C5811 /* PIeChartTest */;
+			target = 6B361DD12C04D01E004C5811 /* PieChartTest */;
 			targetProxy = 6B361DF32C04D01F004C5811 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6B361DDB2C04D01E004C5811 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B361DDC2C04D01E004C5811 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6B361DE02C04D01E004C5811 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,9 +439,8 @@
 				INFOPLIST_FILE = PIeChartTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,9 +466,8 @@
 				INFOPLIST_FILE = PIeChartTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,7 +497,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PIeChartTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PIeChartTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PieChartTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PieChartTest";
 			};
 			name = Debug;
 		};
@@ -527,7 +517,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PIeChartTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PIeChartTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PieChartTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PieChartTest";
 			};
 			name = Release;
 		};
@@ -570,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B361DCD2C04D01E004C5811 /* Build configuration list for PBXProject "PIeChartTest" */ = {
+		6B361DCD2C04D01E004C5811 /* Build configuration list for PBXProject "PieChartTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B361DFA2C04D01F004C5811 /* Debug */,
@@ -579,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B361DFC2C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PIeChartTest" */ = {
+		6B361DFC2C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PieChartTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B361DFD2C04D01F004C5811 /* Debug */,
@@ -588,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B361DFF2C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PIeChartTestTests" */ = {
+		6B361DFF2C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PieChartTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B361E002C04D01F004C5811 /* Debug */,
@@ -597,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B361E022C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PIeChartTestUITests" */ = {
+		6B361E022C04D01F004C5811 /* Build configuration list for PBXNativeTarget "PieChartTestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B361E032C04D01F004C5811 /* Debug */,
